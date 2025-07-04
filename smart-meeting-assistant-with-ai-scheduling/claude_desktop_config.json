@@ -1,14 +1,18 @@
 {
   "mcpServers": {
-    "smart-meeting-assistant": {
+    "document-analyzer": {
       "command": "python",
       "args": [
-        "src/server.py"
-      ],
-      "env": {
-        "DATA_FILE": "data/sample_content.json",
-        "LOG_LEVEL": "INFO"
-      }
+        "C:\\Users\\dev\\Desktop\\My Files\\GitHub\\misogiai\\w4-d2-build-deploy-mcp-server\\document-analyzer\\src\\server.py",
+        "${user_config.allowed_directories}"
+      ]
+    },
+    "Smart Meeting Assistant": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\dev\\Desktop\\My Files\\GitHub\\misogiai\\w4-d2-build-deploy-mcp-server\\smart-meeting-assistant-with-ai-scheduling\\src\\server.py",
+        "${user_config.allowed_directories}"
+      ]
     }
   }
-} 
+}
