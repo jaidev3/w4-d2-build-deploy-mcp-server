@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "smart-meeting-assistant": {
+      "command": "python",
+      "args": [
+        "src/server.py"
+      ],
+      "env": {
+        "DATA_FILE": "data/sample_content.json",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+} 
