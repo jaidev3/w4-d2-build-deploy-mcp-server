@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "document-analyzer": {
+      "command": "python",
+      "args": ["src/server.py"],
+      "cwd": "C:\\Users\\dev\\Desktop\\My Files\\GitHub\\misogiai\\w4-d2-build-deploy-mcp-server\\document-analyzer",
+      "env": {
+        "PYTHONPATH": "C:\\Users\\dev\\Desktop\\My Files\\GitHub\\misogiai\\w4-d2-build-deploy-mcp-server\\document-analyzer"
+      }
+    }
+  }
+} 
